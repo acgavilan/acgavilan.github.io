@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgba(0, 85, 20, 0.82);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'MedievalSharp', cursive; 
+    height: 100vh;
+}
+nav {
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 1.5em;
+    font-family: 'MedievalSharp', cursive;
+}
+a:link, a:visited {
+    color: lawngreen; 
+}
+a:hover, a:active {
+    background-color: rgba(144, 238, 144, 0.42);
+    color: beige;
+}
+h1 {
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.58);
+    padding-left: 20px;
+    text-shadow: 2px 4px 5px black;
+}
+main {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex; 
+    margin-top: 150px;
+}
+.cards {
+    position: relative;
+    left: 13%;
+    margin-left: -160px;
+    transform: skew(1deg,0deg);
+    transition: transform .09s;   
+}
+.cards:hover {
+    transform: translate(1px,-200px);
+}
