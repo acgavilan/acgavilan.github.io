@@ -47,7 +47,7 @@ main {
 .cards {
     position: relative;
     left: 15%;
-    margin-left: -160px;
+    margin-left: -120px;
     transform: skew(1deg,0deg);
     transition: transform .09s;   
 }
